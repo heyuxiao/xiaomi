@@ -1,0 +1,51 @@
+
+.search{
+    .header{
+        .sea{
+            width: 90%;
+        }
+        .left{
+            width: 10%;
+            background-color: #efeff4;
+            height: 1.173333rem;
+            text-align: center;
+            line-height: 1.173333rem;
+            font-size: .48rem;
+            color: #666;
+        }
+    }
+    .goods_list{
+        ul{
+            li{
+                position: relative;
+                display: flex;
+                border-bottom: .266667rem solid #eee;
+                .det{
+                    padding-top: .266667rem;
+                    .name{
+                        font-size: .426667rem;
+                        color: rgba(0,0,0,.87);
+                    }
+                    .desc{
+                         color: rgba(0,0,0,.54);
+                         font-size: .32rem;
+                    }
+                    .price{
+                         color: #ea625b;
+                         font-size: .48rem;
+                    }
+                    .btn{
+                        button{
+                         background: #ea625b;
+                         border-radius: .05rem;
+                         color: #fff;
+                         width: 2.773333rem;
+                         height: .8rem;
+                         border: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
